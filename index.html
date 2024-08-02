@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restcountries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <h2 class="tittle"><a href="./">where is in world?</a></h2>
+            <div class="theme">
+                <p class="theme-changer theme-light"><i class="fa-regular fa-sun"></i> Light mode</p>
+                <p class="theme-changer theme-dark" style="display: none;"><i class="fa-regular fa-moon"></i> Dark mode</p>
+            </div>
+        </div>
+    </header>
+     
+    <main>
+        <div class="search-filter-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search countries...">
+            </div>  
+            <select class="filter-by-region">
+                <option hidden>Filter By Region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option> 
+            </select>
+        </div>
+        <div class="countries-container">
+            <!-- Content will be populated by JavaScript -->
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
