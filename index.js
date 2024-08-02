@@ -85,8 +85,8 @@ themeDark.addEventListener('click',toggleTheme)
 //initial page load
 if(document.body.classList.contains('dark')){
     themeLight.style.display='block';
-    themeDark.style.display='none'
+    themeDark.style.display='none';
    }else{
-       themeLight.style.display='none';
-       themeDark.style.display='block'
+       themeLight.style.display='block';
+       themeDark.style.display='none'
    }
